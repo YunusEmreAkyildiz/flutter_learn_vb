@@ -28,7 +28,7 @@ class ContainerSizedBoxLearn extends StatelessWidget {
             padding: const EdgeInsets.all(10),
             margin: const EdgeInsets.all(10),
             child: Text('c' *
-                30), // If we decrease the lenghe (30), the container will shrink -> something like responsive design.
+                30), // If we decrease the lenght (30), the container will shrink -> something like responsive design.
             decoration: ProjectUtility
                 .boxDecoration, // There are 2 ways of doing this below
           ),

@@ -21,9 +21,9 @@ class TextLearnView extends StatelessWidget {
               style: ProjectStyles.welcomeStyle,
             ),
             Text(
-              ('Welcome $_name ${_name.length}'),
+              ('Welcome $_name ${_name.length}' * 20),
               maxLines: 2,
-              overflow: TextOverflow.ellipsis,
+              overflow: TextOverflow.fade,
               textAlign: TextAlign.right,
               style: TextStyle(color: ProjectColors.welcomeColor),
             ),

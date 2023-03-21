@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_vb_1/101/app_bar_learn.dart'; // 5
 import 'package:flutter_vb_1/101/button_learn.dart'; // 4
+import 'package:flutter_vb_1/101/color_learn.dart'; // 7
 import 'package:flutter_vb_1/101/container_size_box_learn.dart'; // 2
 import 'package:flutter_vb_1/101/icon_learn.dart'; // 6
 import 'package:flutter_vb_1/101/scaffold_learn.dart'; // 3
@@ -28,8 +29,10 @@ class MyApp extends StatelessWidget {
           systemOverlayStyle: SystemUiOverlayStyle
               .light, // This is about the device's status bar's color.
         ),
+        errorColor: ColorItems()
+            .limone, // We added this from the lesson 101/7/ColorLearn
       ),
-      home: IconLearnView(),
+      home: ColorLearn(),
     );
   }
 }

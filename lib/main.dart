@@ -6,6 +6,7 @@ import 'package:flutter_vb_1/101/color_learn.dart'; // 7
 import 'package:flutter_vb_1/101/container_size_box_learn.dart'; // 2
 import 'package:flutter_vb_1/101/icon_learn.dart'; // 6
 import 'package:flutter_vb_1/101/scaffold_learn.dart'; // 3
+import 'package:flutter_vb_1/101/stateless_learn.dart'; // 8
 import 'package:flutter_vb_1/101/text_learn_view.dart'; // 1
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         errorColor: ColorItems()
             .limone, // We added this from the lesson 101/7/ColorLearn
       ),
-      home: ColorLearn(),
+      home: StatelessLearn(),
     );
   }
 }

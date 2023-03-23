@@ -44,7 +44,7 @@ class PngImage extends StatelessWidget {
       // This mustn't contain static data, so we extracted it to the method -> _nameWithPath
       _nameWithPath,
       fit: BoxFit.contain,
-      color: Colors.green,
+      //color: Colors.green,
     );
   }
 

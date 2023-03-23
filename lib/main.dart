@@ -11,7 +11,8 @@ import 'package:flutter_vb_1/101/padding_learn.dart'; // 9
 import 'package:flutter_vb_1/101/scaffold_learn.dart'; // 3
 import 'package:flutter_vb_1/101/stateless_learn.dart'; // 8
 import 'package:flutter_vb_1/101/text_learn_view.dart'; // 1
-// 11 pages.
+import 'package:flutter_vb_1/demos/note_demo_view.dart'; // 12
+// 12 pages.
 
 void main() {
   runApp(const MyApp());
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         errorColor: ColorItems()
             .limone, // We added this from the lesson 101/7/ColorLearn
       ),
-      home: ImageLearn(),
+      home: NoteDemo(),
     );
   }
 }

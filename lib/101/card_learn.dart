@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 // Mostly used border types:
 /*
-Borders
 StadiumBorder()
 CircleBorder()
 RoundedRectangleBorder()

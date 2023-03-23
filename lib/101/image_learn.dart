@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // We created "assets" folder for this page. Normally this folder is under the folder named root.
-// This assets folder can contain language(localization), project's config files, images, GIFs, notifiers..
+// This assets folder can contain languages(localization), project's config files, images, GIFs, notifiers..
 
 class ImageLearn extends StatelessWidget {
   const ImageLearn({super.key});
@@ -41,7 +41,7 @@ class PngImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image.asset(
-      // This mustn't contain static data so we extracted to method -> _nameWithPath
+      // This mustn't contain static data, so we extracted it to the method -> _nameWithPath
       _nameWithPath,
       fit: BoxFit.contain,
       color: Colors.green,

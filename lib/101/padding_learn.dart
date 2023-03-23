@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // If we don't want our component to have any padding (they might have by default) -> EdgeInsets.zero
-// Some widgets have padding property inside, if they don't, we can add it by wrapping them with Padding.
+// Some widgets have padding property inside them, if they don't, we can add it by wrapping them with Padding.
 
 class PaddingLearn extends StatelessWidget {
   const PaddingLearn({super.key});

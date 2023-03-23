@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 // The point is, when there are lots of components and they are getting more and more complex, we should create a Stateless Widget for them.
 // When we are creating a custom component (e.g. Stateless Widget), the most important point is,
 // the management of the parameters that it gets from outside.
-// Easy way of creating this Wdiget is, after we are done with the component, do "Extract Widget".
+// Easy way of creating this Widget is, after we are done with the component, do "Extract Widget".
 // If want our custom widget to be file special (only accessible from where it is), put "_" in front of it's name.
 // When the component is not so complex to be a different Widget, we can do "Extract Method" (e.g. _emptySpace).
 
